@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".Bases">
+
+    <EditText
+        android:id="@+id/binary_text"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:hint="@string/binary_hint"
+        android:textSize="20sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/octa_text"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:hint="@string/octal_hint"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/decimal_text"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:hint="@string/decimal_hint"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/hexa_text"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:inputType="textNoSuggestions"
+        android:hint="@string/hexa_hint"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/custom_base"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:inputType="textNoSuggestions"
+            android:hint="@string/custom_hint"
+            android:textSize="20sp"
+            android:layout_weight="9"/>
+
+        <EditText
+            android:id="@+id/custom_base_base"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:inputType="number"
+            android:hint="@string/base_hint"
+            android:textSize="20sp"
+            android:layout_weight="2"/>
+    </LinearLayout>
+</LinearLayout>

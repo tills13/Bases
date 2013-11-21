@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_convert" android:showAsAction="always|withText" android:title="@string/menu_convert" android:enabled="true"></item>
+    <item android:id="@+id/menu_reset" android:visible="true" android:enabled="true" android:title="@string/menu_reset" android:showAsAction="always|withText"></item>
+    <item android:id="@+id/menu_help" android:enabled="true" android:visible="true" android:showAsAction="ifRoom|withText" android:title="@string/menu_help"></item>
+</menu>

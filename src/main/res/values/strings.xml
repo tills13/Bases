@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bases</string>
+
+    <string name="binary_hint">binary</string>
+    <string name="hexa_hint">hexadecimal</string>
+    <string name="decimal_hint">decimal</string>
+    <string name="octal_hint">octal</string>
+    <string name="custom_hint">custom base</string>
+    <string name="base_hint">base</string>
+
+    <string name="menu_convert">Convert</string>
+    <string name="menu_reset">Reset</string>
+    <string name="menu_help">Help</string>
+
+    <string name="dialog_title_text">Welcome!</string>
+    <string name="dialog_message_text">This app will remember which field you last used and default to that. To get back to selection mode, simply hit \"reset\" up on the ActionBar.</string>
+    <string name="dialog_button_text">Let\'s Go</string>
+
+    <string name="conversion_error">error parsing number</string>
+    <string name="all_fields_blank_error">all fields can\'t be blank</string>
+    <string name="custom_base_blank_error">custom base can\'t be blank</string>
+</resources>
